@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "238412654464",
+    "firebase_url": "https://al-ameera.firebaseio.com",
+    "project_id": "al-ameera",
+    "storage_bucket": "al-ameera.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238412654464:android:922ca6da2bd5c84b",
+        "android_client_info": {
+          "package_name": "com.example.h_mal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238412654464-ldlrok937aln4ivv7fu3gbt6pf9ns3aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2beMMQJCsQBBNu1kDHMNSI5_tkYEldT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238412654464:android:084541675aa638f7",
+        "android_client_info": {
+          "package_name": "com.example.h_mal.alameera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238412654464-ldlrok937aln4ivv7fu3gbt6pf9ns3aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2beMMQJCsQBBNu1kDHMNSI5_tkYEldT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

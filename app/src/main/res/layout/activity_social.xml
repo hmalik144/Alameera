@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.h_mal.alameera.MediaActivity">
+
+    <!--<include-->
+        <!--android:id="@+id/thisappbar"-->
+        <!--layout="@layout/custom_appbar" />-->
+
+    <!--<GridView-->
+        <!--android:layout_below="@id/thisappbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/ig_grid"-->
+        <!--android:gravity="center"-->
+        <!--android:numColumns="3"-->
+        <!--android:stretchMode="columnWidth">-->
+
+    <!--</GridView>-->
+
+</android.support.design.widget.CoordinatorLayout>
