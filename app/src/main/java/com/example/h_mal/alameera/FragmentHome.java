@@ -31,7 +31,7 @@ public class FragmentHome extends Fragment{
         items = new ArrayList<>();
         items.add(new HomeScreenItems(R.drawable.hair,"Hair"));
         items.add(new HomeScreenItems(R.drawable.nails,"Nails"));
-        items.add(new HomeScreenItems(R.drawable.hamma,"Hammam Bath"));
+        items.add(new HomeScreenItems(R.drawable.massage,"Hammam Bath"));
         items.add(new HomeScreenItems(R.drawable.earring,"Earrings"));
         items.add(new HomeScreenItems(R.drawable.hairmist,"Hair Mist"));
 

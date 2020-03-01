@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.h_mal.alameera.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -37,8 +38,8 @@ public class HomeScreenItemAdapter extends ArrayAdapter<HomeScreenItems>{
         HomeScreenItems currentItem = getItem(position);
 
         ImageView homeScreenImageView = listItemView.findViewById(R.id.home_item_imageView);
-        homeScreenImageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        homeScreenImageView.setImageResource(currentItem.getImg());
+
+        Picasso.with(getContext()).load(currentItem.getImg()).placeholder(R.drawable.alogo2).into(homeScreenImageView);
 
         TextView homeScreenTextView = listItemView.findViewById(R.id.home_item_textView);
         homeScreenTextView.setText(currentItem.getTitle());

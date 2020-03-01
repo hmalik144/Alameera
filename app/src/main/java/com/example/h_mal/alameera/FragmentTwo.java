@@ -66,38 +66,4 @@ public class FragmentTwo extends Fragment {
 
         return rootView;
     }
-
-//    private void openDialog(final Calendar time) {
-//        final EditText edittext = new EditText(getActivity());
-//        AlertDialog dialog = new AlertDialog.Builder(getActivity())
-//                .setTitle("Select Duration")
-//                .setView(edittext)
-//                .setPositiveButton("Add", new DialogInterface.OnClickListener() {
-//                    @Override
-//                    public void onClick(DialogInterface dialog, int which) {
-//                        int duration = Integer.parseInt(edittext.getText().toString());
-//                        CreateCalenderEntry(time, duration);
-//                    }
-//                })
-//                .setNegativeButton("Cancel", null)
-//                .create();
-//        dialog.show();
-//    }
-//
-//    private void CreateCalenderEntry(Calendar time, int duration){
-//        Calendar endTime = Calendar.getInstance();
-//        endTime.set(time.get(Calendar.YEAR),
-//                time.get(Calendar.MONTH),
-//                time.get(Calendar.DAY_OF_MONTH),
-//                (time.get(Calendar.HOUR_OF_DAY)+duration),
-//                time.get(Calendar.MINUTE));
-//        WeekViewEvent event = new WeekViewEvent(1, "added event", time, endTime);
-//        events.add(event);
-//        mWeekView.notifyDatasetChanged();
-//    }
-//
-//    private String CalenderToString(Calendar item){
-//        SimpleDateFormat sdf = new SimpleDateFormat("yyyy MMM dd HH:mm:ss");
-//        return sdf.format(item.getTime());
-//    }
 }
